@@ -1,0 +1,435 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: arial;
+}
+
+main{
+	width: 1349.3px;
+	height: 700px;
+	background-color: #fafafa;
+}
+
+#cabecalho_principal{
+	width: 1266px;
+	height: 25%;
+	margin-left: 3.7%;
+	background-color: #fff;
+}
+
+
+#section_logo{
+	width: 575px;
+	height: 100%;
+	float: left;
+	position: absolute;
+}
+
+#img_logo{
+	padding-top: 5px;
+	padding-left: 9px;
+}
+
+#cabecalho_direito{
+	width: 691px;
+	height: 100%;
+	float: right;
+}
+
+#section_atendimento{
+	width: 139px;
+	height: 53px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#d8251e), to(#ab231f));
+    background: -moz-linear-gradient(top, #d8251e, #ab231f);
+    border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	margin-top: 4.5px;
+	box-shadow: 2px 2px #cccccc, -2px -2px #666666;
+	margin-left: 4px;
+}
+
+#p_atendimento{
+	text-align: center;
+	padding-top: 8px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0.7px 0.7px rgba(0,0,0,0.4);
+}
+
+#section_borda{
+	width: 79.3%;
+	height: 47px;
+	float: right;
+	margin-top: -50px;
+	float: left;
+	margin-left: 143px;
+	background: -webkit-linear-gradient(right , rgb(56,56,56) 11%, rgb(189,189,189) 56%);
+}
+
+#section_conteudo_borda{
+	background: -webkit-linear-gradient(left , rgb(230,230,230) 11%, rgb(250,250,250) 56%);
+	width: 100%;
+	height: 40px;
+	margin-top: 4px;
+}
+
+#section_contato{
+	text-align: left;
+	float: right;
+	padding-right: 110px;
+}
+
+#p_atendimento_pequeno{
+	font-size: 10px;
+	color: #666666;
+	font-weight: bold;
+	text-shadow: 0.5px 0.5px #666666;
+}
+
+#p_atendimento_grande{
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 0.5px 0.5px #000;
+}
+
+#nav_superior{
+	background-color: red;
+	width: 929px;
+	height: 40px;
+	margin-top: 18px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #D9261E), color-stop(0.9, #AB231F));
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	text-align: right;
+	box-shadow: 0px 4px 1px rgba(0,0,0,0.2), 0px -1px 5px #000;
+	margin-left: -240px;
+}
+
+#nav_superior ul li{
+	display: inline;
+	line-height: 160%;
+	padding: 1%;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 1px 1px 5px #000;
+
+}
+
+#nav_superior ul{
+	padding-top: 5px;
+}
+
+#nav_superior ul li:hover{
+	cursor: pointer;
+}
+
+.span_letra_grande{
+	font-size: 25px;
+}
+
+#section_conteudo_esquerdo{
+	float: left;
+	width: 235px;
+	height: 433px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ececec), color-stop(0.9, #fefefe));
+	margin-left: 80px;
+	box-shadow: 4px 4px #cccccc, -4px -4px #666666;
+	border-radius: 5px;
+}
+
+#section_conteudo_meio{
+	height: 439px;
+	width: 350px;
+	margin-left: 290px;
+	margin-top: -53px;
+}
+
+#section_conteudo_direito{
+	height: 439px;
+	width: 682px;
+	float: right;
+	margin-top: -439px;
+	margin-right: 33px;
+}
+
+#section_galeria:hover{
+	cursor: pointer;
+}
+
+#rodape_principal{
+	width: 1266px;
+	height: 139px;
+	margin-left: 50px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0.5px 0.5px #000;
+	font-size: 15px;
+}
+
+#section_barra_rodape{
+	background-color: red;
+	width: 100%;
+	height: 10px;
+	margin-top: 0px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #D9261E), color-stop(0.9, #AB231F));
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow: 0px 4px 1px rgba(0,0,0,0.2), 0px -1px 5px #000;
+
+}
+
+.span_rodape{
+	color: #333333;
+	font-size: 13px;
+}
+
+#span_creci{
+	font-size: 13px;
+}
+
+#span_rua{
+	font-size: 12px;
+}
+
+#span_forum{
+	font-size: 12px;
+}
+
+#p_creci{
+	font-weight: bold;
+	text-align: center;
+	margin-right: 70px;
+	text-shadow: 0.5px 0.5px #000;
+	font-size: 17px;
+}
+
+.caixa{
+	width: 288px;
+    height: 52px;
+    margin: 17px;
+    padding: 5px;
+    margin-left: 260px;
+    text-shadow: 1px 1px 1px #ccc;
+    -moz-box-shadow: 2px 2px 5px #ccc;
+    -webkit-box-shadow: 2px 2px 5px #ccc;
+    box-shadow: 2px 2px 5px #ccc;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.caixa{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #808080;
+	text-align: center;
+	margin-left: 45px;
+}
+
+#simulacao{
+	color: #808080;
+	font-size: 0.5em;
+}
+
+.span_vermelho{
+	color: #cc0000;
+}
+
+#caixa1{
+	margin-top: -50px;
+}
+
+#caixas{
+	margin-top: 90px;
+	font-weight: bold;
+	position: absolute;
+}
+
+
+#busca_rapida{
+	width: 220px;
+    height: 60px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 15px 15px 0px 0px;
+    top: 87px;
+    width: 220px;
+    z-index: 9;
+    position: absolute;
+    left: -12px;
+    background: linear-gradient(#d4251e, #ad231e);
+    margin-top: 85px;
+    margin-left: 100px;
+}
+#busca_rapida h1{
+	font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    font-size: 24px;	
+    text-shadow: 1px 1px 1px #600;
+    text-align: center;
+    margin-top: 10px;
+}
+#busca_rapida2{
+	width: 0;
+    height: 0;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    border-top: 20px solid #AC1F18;
+    border-bottom: 0;
+    position: absolute;
+    left: -12px;
+    top: 147px;
+    z-index: 9;
+    margin-left: 100px;
+    margin-top: 85px;
+}
+
+#imoveis{
+	margin-top: 150px;
+	position: relative;
+}
+
+.selecao{
+	margin-top: 17px;
+	margin-left: 27px;
+    width: 180px;
+    height: 25px;
+    background: linear-gradient(#fff,#c0c0c0,#fff);
+    border-style: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px -2px 2px #666;
+    position: relative;
+}
+
+#section_borda_galeria{
+	margin-top: 10px;
+	margin-left: 7px;
+	width: 98%;
+	height: 350px;
+	box-shadow: 1px 3px #888888;
+	border-radius: 5px;
+}
+
+#img_apartamento{
+	width: 96%; 
+	height: 345px;
+	margin-top: 4px;
+	margin-left: 7px;
+}
+
+#section_info_apartamento{
+	position: absolute;
+	margin-top: -65px;
+	margin-left: 30px;
+	width: 600px;
+	height: 60px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#p_nome_predio{
+	color: #b32403;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 25px;
+}
+
+#p_cidade{
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin-top: -23px;
+	margin-right: 10px;
+}
+
+#p_bairro{
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+#section_info_apartamento:hover{
+	width: 600px;
+	height: 320px;
+	transition:3s;
+	margin-top: -325px;
+}
+
+#section_bolas ul{
+	margin-left: 170px;
+	margin-top: 10px;
+}
+
+#section_bolas ul li{
+	display: inline-block;
+	margin-right: 15px;
+	width: 15px;
+	height: 15px;
+	background-color: #4b4b4b;
+	border-radius: 15px 15px 15px 15px;
+}
+
+#botao_pesquisa{
+	margin-left: 17px;
+	margin-top: 15px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #d8251e), color-stop(0.9, #ab231f));
+	color: #fff;
+	font-weight: bold;
+	width: 200px;
+	height: 50px;
+	position: relative;
+	border-radius: 15px;
+}
+
+#botao_pesquisa:hover{
+	cursor: pointer;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ab231f), color-stop(0.9, #d8251e));
+}
+
+#selecionada{
+	margin-top: 2.2%;
+	width: 23px;
+	height: 23px;
+	border-radius: 23px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #D9261E), color-stop(0.9, #AB231F) );
+}
+
+#section_seta_esquerda{
+	width: 40px;
+	height: 70px;
+	float: left;
+	background-color: rgba(0,0,0,0.8);
+	margin-top: -240px;
+	margin-left: 13px;
+	position: absolute;
+}
+
+.caixa:hover{
+	box-shadow: 5px 5px 15px #ccc; 
+	text-shadow: 5px 5px 5px #ccc;
+}
+
+#p_seta_esquerda{
+	color: #9c9993;
+	text-align: center;
+	margin-top: 9px;
+	font-size: 50px;
+}
+
+#section_seta_direita{
+	width: 40px;
+	height: 70px;
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	margin-top: -240px;
+	margin-left: 612px;
+}
+
+#p_seta_direita{
+	color: #9c9993;
+	text-align: center;
+	margin-top: 9px;
+	font-size: 50px;
+}
